@@ -1,12 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { Download } from './pages/Download'
 import { NotFound } from './pages/404'
-import { Temp } from './pages/Temp'
+import { Home } from './pages/Home'
 
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <Temp />,
+    element: <Home />,
   },
 
   {
